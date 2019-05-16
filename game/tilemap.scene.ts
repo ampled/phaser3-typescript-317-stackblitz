@@ -4,7 +4,7 @@ export class TileMapPhysicsScene extends Phaser.Scene {
   }
 
   preload(): void {
-    this.load
+    // this.load.image('mario-tiles')
   }
 
 }

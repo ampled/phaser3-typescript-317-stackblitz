@@ -1,11 +1,7 @@
-
-
-
-
-
 import Phaser from 'phaser';
 
 import { BootScene } from './game/boot.scene';
+import {TileMapPhysicsScene} from './game/tilemap.scene';
 
 var config: Phaser.Types.Core.GameConfig = {
   width: 400,
@@ -42,4 +38,24 @@ var config2: Phaser.Types.Core.GameConfig = {
 };
 
 var game2 = new Phaser.Game(config2);
+
+var config3: Phaser.Types.Core.GameConfig = {
+  width: 400,
+  height: 240,
+  physics: {
+    default: 'arcade',
+    arcade: {
+      gravity: { y: 500 },
+      fps: 30
+    }
+  },
+  scene: [
+    new TileMapPhysicsScene()
+  ]
+
+};
+
+var game3 = new Phaser.Game(config3);
+
+
 
