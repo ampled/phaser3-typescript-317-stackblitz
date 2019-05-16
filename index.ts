@@ -42,6 +42,7 @@ var game2 = new Phaser.Game(config2);
 var config3: Phaser.Types.Core.GameConfig = {
   width: 400,
   height: 240,
+  zoom: 2,
   physics: {
     default: 'arcade',
     arcade: {
