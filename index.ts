@@ -46,7 +46,8 @@ var config3: Phaser.Types.Core.GameConfig = {
     default: 'arcade',
     arcade: {
       gravity: { y: 500 },
-      fps: 30
+      fps: 144,
+      debug: true
     }
   },
   scene: [
