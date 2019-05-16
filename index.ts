@@ -40,7 +40,7 @@ var config2: Phaser.Types.Core.GameConfig = {
 var game2 = new Phaser.Game(config2);
 
 var config3: Phaser.Types.Core.GameConfig = {
-  width: 400,
+  width: 250,
   height: 240,
   zoom: 2,
   physics: {

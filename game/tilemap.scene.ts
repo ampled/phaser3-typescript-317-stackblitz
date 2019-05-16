@@ -10,7 +10,7 @@ export class TileMapPhysicsScene extends Phaser.Scene {
   }
 
   create(): void {
-    this.text = this.add.text(120, 200, '144 wfps (toggle with s)');
+    this.text = this.add.text(5, 200, '144 wfps (toggle with s)');
 
     const level = [
       [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
